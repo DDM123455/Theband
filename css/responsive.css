@@ -1,0 +1,45 @@
+@media(max-width:740px){
+    #nav{
+        display: block;
+    }
+
+    #nav>li{
+        display: block;
+    }
+    #nav>li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: aliceblue;
+        padding: 5px 41px;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .search{
+        display: none;
+    }
+    #header .menu-mobile{
+        display: block;
+    }
+    .col-third{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .col-res{
+        width: 100%;
+        float: initial;
+    }
+    .col{
+        float: none;
+        width: 100%;
+    }
+    #content .member-img{
+        width: 61%;
+    }
+
+}
